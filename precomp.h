@@ -6,4 +6,5 @@
 #include <iostream>
 
 #include "error.h"
+#include "lexer.h"
 #include "parser.h"

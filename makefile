@@ -1,7 +1,7 @@
 C=g++
 CFLAGS=-c -Wall
 LDFLAGS=-lstdc++
-SOURCES=main.cpp parser.cpp
+SOURCES=main.cpp lexer.cpp parser.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=parser
 
